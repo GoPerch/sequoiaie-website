@@ -6,8 +6,7 @@
 		"format": "prettier --write \"{,!(.next)/**/}*.{js, jsx}\"",
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start",
-		"postbuild": "next-on-netlify"
+		"start": "next start"
 	},
 	"browser": {
 		"fs": false,
