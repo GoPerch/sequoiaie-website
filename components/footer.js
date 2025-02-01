@@ -10,16 +10,16 @@ const Footer = () => {
 		<div className='footer'>
 			<div className='footer__content'>
 				<div className='footer__info'>
-					<div className='footer__logo'>
+					<div className='footer__extra-links'>
 						<Link legacyBehavior href='/'>
-							<Image
+							{/* <Image
 								className='img'
 								src='/img/BlueLogo.png'
 								alt='Blue Logo'
 								width={140}
 								height={140}
 								quality={100}
-							/>
+							/> */}<h2 className='footer_head_logo'>Sequoiaie</h2> 
 						</Link>
 					</div>
 

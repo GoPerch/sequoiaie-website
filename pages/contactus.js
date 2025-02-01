@@ -115,7 +115,7 @@ const Contact = () => {
 						</div>
 						<form
 							className='contact__form'
-							name='Alexis Flooring Contact Inqueries'
+							name='Sequoiaie  Contact Inqueries'
 							method='post'
 							onSubmit={handleSubmit}>
 							<input

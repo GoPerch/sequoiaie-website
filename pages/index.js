@@ -49,7 +49,7 @@ export default function Home(props) {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
 
-        <title>Alexis Flooring - Affordable Floor Installations</title>
+        <title>sequoiaie - Affordable Floor Installations</title>
       </Head>
 
       <Header />

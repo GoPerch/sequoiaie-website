@@ -10,14 +10,14 @@ const WhoAreWe = () => {
       </div>
       <div className="who__are__we__content">
         <div className="logo">
-          <Image
+          {/* <Image
             className="img"
             src="/img/whiteLogo.png"
             alt="White Logo"
             width={300}
             height={460}
             quality={100}
-          />
+          /> */}<h2>Sequoiaie </h2>
         </div>
         <div className="who__are__we__info">
           <p>
