@@ -12,14 +12,15 @@ const Footer = () => {
 				<div className='footer__info'>
 					<div className='footer__extra-links'>
 						<Link legacyBehavior href='/'>
-							{/* <Image
+							<Image
 								className='img'
-								src='/img/BlueLogo.png'
+								src='/img/whiteLogo.png'
 								alt='Blue Logo'
-								width={140}
-								height={140}
+								width={100}
+								height={100}
 								quality={100}
-							/> */}<h2 className='footer_head_logo'>Sequoiaie</h2> 
+							/>
+							{/* <h2 className='footer_head_logo'>Sequoiaie</h2>  */}
 						</Link>
 					</div>
 

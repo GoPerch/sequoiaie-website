@@ -29,14 +29,15 @@ class Navbar extends Component {
             <div className="logo">
               <Link legacyBehavior href="/">
                 <a>
-                  {/* <Image
+                  <Image
                     className="img"
                     src="/img/whiteLogo.png"
                     alt="White Logo"
                     width={140}
                     height={140}
                     quality={100}
-                  /> */}<h2>Sequoiaie </h2>
+                  />
+                  {/* <h2>Sequoiaie </h2> */}
                 </a>
               </Link>
             </div>
