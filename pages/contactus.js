@@ -101,7 +101,7 @@ const Contact = () => {
 			</Head>
 			<div className='contact'>
 				<div className='contact__hero-section'>
-					<h1>So, you are interested in Wood Depot</h1>
+					<h1>So, you are interested in Sequoiaie</h1>
 					<p>
 						You can get started by contacting us and let us know any questions you might have, and we will
 						get back with you within 24 hours. Hoping to working with you!{' '}

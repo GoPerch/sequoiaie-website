@@ -19,8 +19,8 @@ const Testomonials = () => {
           </div>
           <span>
             <span className="large__font">"</span> If you ask me for the best
-            floor installation service, I would highly recommend Wood Depot
-            because of their Quality work.. I would highly recommend Wood Depot
+            floor installation service, I would highly recommend Sequoiaie
+            because of their Quality work.. I would highly recommend Sequoiaie
             because of their Quality work..{" "}
             <span className="large__font">"</span>
           </span>
@@ -35,8 +35,8 @@ const Testomonials = () => {
           </div>
           <span>
             <span className="large__font">"</span> If you ask me for the best
-            floor installation service, I would highly recommend Wood Depot
-            because of their Quality work.. I would highly recommend Wood Depot
+            floor installation service, I would highly recommend Sequoiaie
+            because of their Quality work.. I would highly recommend Sequoiaie
             because of their Quality work..{" "}
             <span className="large__font">"</span>
           </span>
@@ -51,8 +51,8 @@ const Testomonials = () => {
           </div>
           <span>
             <span className="large__font">"</span> If you ask me for the best
-            floor installation service, I would highly recommend Wood Depot
-            because of their Quality work.. I would highly recommend Wood Depot
+            floor installation service, I would highly recommend Sequoiaie
+            because of their Quality work.. I would highly recommend Sequoiaie
             because of their Quality work..{" "}
             <span className="large__font">"</span>
           </span>
