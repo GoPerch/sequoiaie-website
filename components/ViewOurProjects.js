@@ -8,6 +8,7 @@ const ViewOurProjects = () => {
     <div className="view__our__projects">
       <div className="projects__header">
         <h1>View our Projects</h1>
+        <hr className="projects_hr"/>
       </div>
       <div className="projects">
         <div className="project">

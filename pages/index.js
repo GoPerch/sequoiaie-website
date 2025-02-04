@@ -12,7 +12,7 @@ import WhyWorkWithUs from "../components/WhyWorkWithUs";
 
 export default function Home(props) {
   return (
-    <div>
+    <div className="home_cont">
       <Head>
         <meta
           name="description"

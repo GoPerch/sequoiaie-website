@@ -499,6 +499,8 @@ a {
   font-size: 15px;
 }
 
+
+
 .contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -791,7 +793,7 @@ a {
   margin-bottom: 40px;
 }
 
-.services__we__offer > .services__header {
+/* .services__we__offer > .services__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,7 +802,7 @@ a {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
+} */
 
 .services__we__offer > .services__header h2 {
   font-size: 33px;

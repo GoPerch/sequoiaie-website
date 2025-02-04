@@ -2,26 +2,35 @@
 
 .header {
   font-family: $primary_font;
-  height: 65vh;
+  height: 100vh; /* Full viewport height for desktop */
+  background-color: black;
+  background-image: url('/img/blackbg.jpg');
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .header__container {
   text-align: center;
   position: absolute;
   z-index: 100;
+  max-width: 90%; /* Limit the width to prevent overflow */
+  margin: 0 auto; /* Center the container */
+  padding: 0 1rem; /* Add horizontal padding to prevent content from touching edges */
 }
 
 .header__container > h1 {
   font-family: $primary_font;
   font-weight: 700;
   color: white;
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: -1px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   letter-spacing: -3px;
 }
@@ -32,10 +41,10 @@
 
 .header__white__btn {
   background: white;
-  padding: 20px 40px;
+  padding: 10px 40px;
   color: black;
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 30px;
   margin-right: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   font-size: 15px;
@@ -43,24 +52,95 @@
 
 .header__red__btn {
   background: black;
-  padding: 20px 40px;
+  padding: 10px 40px;
   color: white;
+  border: 1px solid white;
   font-weight: 600;
-  border-radius: 3px;
+  border-radius: 30px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   font-size: 15px;
 }
+
+.header__red__btn:hover {
+background-color: rgba(196, 196, 196, 0.291);
+}
+
+
+.header__cards__container {
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  width: 20%;
+  height: 300px;
+  padding: 2rem;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgb(67, 67, 67);
+}
+
+.card__content {
+  // padding: 1rem;
+  border-radius: 8px;
+  // position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.card h3 {
+  font-size: 23px !important;
+  margin-bottom: 30px;
+}
+
+.card p {
+  font-size: 13px;
+  margin-bottom: 30px;
+  color: rgb(188, 188, 188);
+}
+
+.card__btn {
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.card__btn:hover {
+  background-color: rgba(196, 196, 196, 0.291);
+  
+}
+
 
 /*** Why Work With Us Component Styles ***********/
 
 .why__work__with__us {
   height: 60vh;
   display: flex;
+  background-color: black;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
-  margin: 70px 0;
+  padding-bottom: 40px;
+  padding: 70px 0;
+  margin-top: 0;
+  color: white;
 
   & > h3 {
     font-size: 38px;
@@ -69,7 +149,7 @@
   & > hr {
     width: 100px;
     margin: 20px 0;
-    border: 1px solid rgb(250, 0, 30);
+    border: 1px solid #48cae4;
   }
 
   & > .company__info {
@@ -81,7 +161,7 @@
     & > div {
       & > h1 {
         font-size: 70px;
-        color: rgb(250, 0, 30);
+        color: #48cae4;
       }
       & > p {
         font-size: 25px;
@@ -94,92 +174,118 @@
 
 /*** Services we offer Component Styles ***********/
 
+
+.services_main_container{
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+}
 .services__we__offer {
   align-items: center;
   width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
-
-  & > .services__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-    h2 {
-      font-size: 33px;
-    }
-
-    h4 {
-      width: 50%;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 24px;
-      border-left: 2px solid rgb(250, 0, 30);
-      padding-left: 25px;
-    }
-  }
-
-  & > .service {
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px 0;
-    display: flex;
-    align-items: center;
-
-    & > .service__content {
-      padding: 0 30px;
-      h2 {
-        font-size: 30px;
-      }
-      p {
-        font-size: 14px;
-        line-height: 28px;
-        padding: 15px 0;
-      }
-
-      & > a {
-        background: rgb(250, 0, 30);
-        color: white;
-        padding: 15px 25px;
-        font-size: 15px;
-        display: inline-block;
-        margin-top: 10px;
-      }
-    }
-  }
+  padding-bottom: 40px;
 }
 
+.servicer_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin:  0 auto;
+  margin-bottom: 70px;
+}
+
+.servicer_cont h2 {
+  font-size: 33px;
+  white-space: nowrap;
+  border-right: 3px solid #48cae4;
+  margin-right: 20px;
+  padding-right: 80px;
+}
+
+.services__header h4 {
+  width: 50%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  border-left: 2px solid #48cae4;
+  padding-left: 25px;
+}
+
+.service {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+.service__content {
+  padding: 0 30px;
+}
+
+.service__content h2 {
+  font-size: 40px;
+}
+
+.service__content p {
+  font-size: 14px;
+  line-height: 28px;
+  padding: 15px 0;
+  color: rgb(216, 216, 216);
+}
+
+.service__content a {
+  background: #48cae4;
+  color: black;
+  font-weight: bold;
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+
 /*** Testimonial Component Styles ***********/
+.all__testomonials{
+  z-index: 100;
+}
 
 .testomonials {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 70px 0;
+  padding: 70px 0;
   position: relative;
+  background-color: black;
+  // color: white;
 
   .red__box {
     height: 450px;
     width: 450px;
-    bottom: 10%;
-    background: rgb(250, 0, 30);
+    bottom: 18%;
+    background: #48cae4;
     position: absolute;
     left: -60px;
-    z-index: -1;
+    z-index: 10;
   }
 
   .testomonials__header {
     & > h1 {
       font-size: 38px;
+      color: white;
     }
 
     & > hr {
       width: 100px;
       margin: 20px auto;
-      border: 1px solid rgb(250, 0, 30);
+      border: 1px solid #48cae4;
     }
   }
 
@@ -194,6 +300,8 @@
   .testomonial {
     max-width: 550px;
     padding: 40px 30px;
+    border-radius: 20px;
+    color: black;
 
     .user__data {
       display: flex;
@@ -204,7 +312,7 @@
         height: 100%;
         border-radius: 50%;
         padding: 0;
-        border: 2px solid rgb(250, 0, 30);
+        border: 2px solid #48cae4;
       }
 
       & > div {
@@ -231,7 +339,7 @@
 
       & > .large__font {
         font-size: 25px;
-        color: rgb(250, 0, 30);
+        color: #48cae4;
         font-weight: 600;
       }
     }
@@ -239,19 +347,32 @@
 }
 
 /*** View our projects Component Styles ***********/
+.home_cont{
+  background-color: black;
+  color: white;
+}
 
+.projects_hr{
+  width: 100px;
+      margin: 20px auto;
+      border: 1px solid #48cae4;
+}
 .view__our__projects {
   width: 80%;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: black;
+  color: white;
 
   .projects__header {
     text-align: left;
 
     h1 {
       font-size: 38px;
+      margin-bottom: 30px;
+      text-align: center;
     }
   }
 
@@ -264,17 +385,21 @@
       display: flex;
       order: 0;
       align-items: center;
+      margin-bottom: 100px;
 
       & > .project__info {
-        margin-left: 40px;
-        background: white;
+        // margin-left: 40px;
+        background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+        backdrop-filter: blur(10px); /* Applies the blur effect */
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.048);
         width: 100%;
-        padding: 35px 35px;
+        padding: 35px;
+        border-radius: 10px; /* Rounded corners for a smooth glass effect */
+        border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for glassy effect */
 
         h1 {
           font-size: 30px;
-          color: $secondary-color;
+          color: #48cae4;
         }
 
         p {
@@ -298,10 +423,11 @@
 
           .red__button {
             padding: 15px 20px;
-            font-weight: 600;
-            color: white;
-            font-size: 12px;
-            background: rgb(250, 0, 30);
+            font-weight: bold;
+            border-radius: 30px;
+            color: black;
+            font-size: 14px;
+            background: #48cae4;
           }
         }
       }
@@ -328,7 +454,7 @@
     hr {
       width: 100px;
       margin: 20px auto;
-      border: 1px solid rgb(250, 0, 30);
+      border: 1px solid #48cae4;
     }
   }
   .who__are__we__content {
@@ -362,8 +488,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 
+
+  .button__red{
+    background-color: #48cae4;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+  }
   h1 {
     font-size: 38px;
   }
@@ -396,7 +529,7 @@
   }
 
   .why__work__with__us {
-    margin: 22% 0;
+    padding: 22% 0;
   }
 
   // Services
@@ -437,55 +570,56 @@
 /**************************** Mobile Max ***/
 
 @media all and (max-width: 600px) {
-  .why__work__with__us > .company__info > div > h1 {
-    text-align: center;
-  }
-  .services__we__offer > .services__header h4 {
+
+  .container{
     width: 100%;
   }
-  .services__we__offer > .service > .service__content {
-    padding: 0;
+
+  .why__work__with__us > .company__info > div > h1{
+    font-size: 50px;
+    text-align: center;
   }
-  .testomonials .red__box {
-    bottom: 38%;
+  /* Allow header to grow in height and make background repeat */
+  .header {
+    min-height: 150vh; /* Ensure there's enough height for all content */
+    background-size: auto; /* Allow background to repeat */
+    background-repeat: repeat-y; /* Repeat the background image vertically */
+    background-position: top center; /* Start the background from the top */
+    justify-content: flex-start; /* Align the content at the top */
   }
-  .testomonials .all__testomonials {
-    display: flex;
+
+  .header__cards__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .header__container > h1 {
+    margin-top: 100px;
+    font-size: 30px; /* Make the heading smaller on small screens */
+  }
+
+  .header__container > div {
+    padding-top: 20px;
+  }
+
+  .header__white__btn, .header__red__btn {
+    font-size: 14px; /* Smaller buttons for mobile */
+    padding: 8px 20px;
+  }
+
+  .all__testomonials{
     flex-direction: column;
   }
 
-  .view__our__projects {
-    width: 100%;
-  }
-  .view__our__projects > .projects .project > .project__info {
-    margin-left: 0;
-
-    p {
-      width: 100%;
-    }
-
-    .project__buttons {
-      text-align: center;
-    }
-  }
-
-  .who__are__we {
-    height: auto;
-  }
-
-  .who__are__we .who__are__we__content {
-    display: flex;
-    flex-direction: column-reverse;
-    height: auto;
-  }
-
-  .what__more h1 {
-    font-size: $lg_heading;
-    text-align: center;
-  }
-
-  .what__more p {
-    padding: 20px 50px;
+  .testomonials .all__testomonials{
+    // grid: ;
+    grid-template-columns:repeat(1,1fr);
+    padding: 0 40px;
   }
 }
 
@@ -494,7 +628,7 @@
 @media all and (max-width: 450px) {
   //@Landing-Page
   .why__work__with__us {
-    margin: 42% 0;
+    padding: 42% 0;
   }
   .testomonials .red__box {
     width: 100%;
