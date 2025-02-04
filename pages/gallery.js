@@ -66,7 +66,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 2 */}
@@ -80,7 +80,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 3 */}
@@ -93,7 +93,7 @@ const Gallery = () => {
                 layout="fill"
                 quality={100}
               />
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 4 */}
@@ -106,7 +106,7 @@ const Gallery = () => {
                 layout="fill"
                 quality={100}
               />
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 5 */}
@@ -119,7 +119,7 @@ const Gallery = () => {
                 layout="fill"
                 quality={100}
               />
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 6 */}
@@ -132,7 +132,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 7 */}
@@ -145,7 +145,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 8 */}
@@ -158,7 +158,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 9 */}
@@ -171,7 +171,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 10 */}
@@ -184,7 +184,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
             {/* Gallery Box 11 */}
@@ -197,7 +197,7 @@ const Gallery = () => {
                 quality={100}
               />
 
-              <div className="gallery-grid__info">Vinyl Floor Installation</div>
+              <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const ServicesWeOffer = () => {
         />
 
         <div className="service__content">
-          <h2>Vinyl Floor Installation</h2>
+          <h2>Tiles and interior design</h2>
           <p>
             We offer a substantial list of suppliers, some of which shown below.
             We provide competitive prices and ensure the project is completed on
