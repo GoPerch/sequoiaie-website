@@ -30,17 +30,17 @@ const Footer = () => {
 							target='_blank'
 							rel='noopener noreferrer'
 							className='footer__link'>
-							625 Ripple St
+							Eshwar Nagar, KA
 						</a>
 						<a href='tel:12345678910' className='footer__link'>
-							(123)-4567-8910
+							+91 2711625362
 						</a>
 						<a
-							href='mailto:info@wooddepot.com'
+							href='mailto:info@sequoiaie.com'
 							target='_blank'
 							rel='noopener noreferrer'
 							className='footer__link'>
-							info@wooddepot.com
+							info@sequoiaie.com
 						</a>
 					</div>
 				</div>
