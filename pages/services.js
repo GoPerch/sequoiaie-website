@@ -46,7 +46,7 @@ const Services = () => {
 
       <div className="services">
         <div className="services__header">
-          <h1>Services we offeredfgdfgdfgd</h1>
+          <h1>Services we offer</h1>
           <p>
             We offer a wide range of flooring services, and high quality
             installation services at affordable prices. The wide of services we

@@ -378,7 +378,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Inter';
-  background: #fa001e;
+  background: #48cae4;
   color: white;
   padding: 12px 25px;
   font-size: 11px;
@@ -432,7 +432,7 @@ a {
 }
 
 .button__red {
-  background: #fa001e;
+  background: #48cae4;
   color: white;
   padding: 15px 25px;
   font-size: 15px;
@@ -489,7 +489,7 @@ a {
 }
 
 .header__red__btn {
-  background: #fa001e;
+  background: #48cae4;
   padding: 20px 40px;
   color: white;
   font-weight: 600;
@@ -632,7 +632,7 @@ a {
 }
 
 .contact__form button {
-  background: #fa001e;
+  background: #48cae4;
   height: 103px;
   color: #ffffff;
   font-size: 34px;
@@ -752,7 +752,7 @@ a {
 .why__work__with__us > hr {
   width: 100px;
   margin: 20px 0;
-  border: 1px solid #fa001e;
+  border: 1px solid #48cae4;
 }
 
 .why__work__with__us > .company__info {
@@ -768,7 +768,7 @@ a {
 
 .why__work__with__us > .company__info > div > h1 {
   font-size: 70px;
-  color: #fa001e;
+  color: #48cae4;
 }
 
 .why__work__with__us > .company__info > div > p {
@@ -813,7 +813,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  border-left: 2px solid #fa001e;
+  border-left: 2px solid #48cae4;
   padding-left: 25px;
 }
 
@@ -849,7 +849,7 @@ a {
 }
 
 .services__we__offer > .service > .service__content > a {
-  background: #fa001e;
+  background: #48cae4;
   color: white;
   padding: 15px 25px;
   font-size: 15px;
@@ -879,7 +879,7 @@ a {
   height: 450px;
   width: 450px;
   bottom: 10%;
-  background: #fa001e;
+  background: #48cae4;
   position: absolute;
   left: -60px;
   z-index: -1;
@@ -892,14 +892,14 @@ a {
 .testomonials .testomonials__header > hr {
   width: 100px;
   margin: 20px auto;
-  border: 1px solid #fa001e;
+  border: 1px solid #48cae4;
 }
 
 .testomonials .all__testomonials {
   margin: 30px 0;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
+  -ms-grid-columns: 1fr 1fr;
       grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -929,7 +929,7 @@ a {
   width: 8%;
   border-radius: 50%;
   padding: 0;
-  border: 2px solid #fa001e;
+  border: 2px solid #48cae4;
 }
 
 .testomonials .testomonial .user__data > div {
@@ -956,7 +956,7 @@ a {
 
 .testomonials .testomonial > span > .large__font {
   font-size: 25px;
-  color: #fa001e;
+  color: #48cae4;
   font-weight: 600;
 }
 
@@ -1049,7 +1049,7 @@ a {
   font-weight: 600;
   color: white;
   font-size: 12px;
-  background: #fa001e;
+  background: #48cae4;
 }
 
 .who__are__we {
@@ -1077,7 +1077,7 @@ a {
 .who__are__we .who__are__we__header hr {
   width: 100px;
   margin: 20px auto;
-  border: 1px solid #fa001e;
+  border: 1px solid #48cae4;
 }
 
 .who__are__we .who__are__we__content {
@@ -1169,7 +1169,7 @@ a {
 }
 
 .footer__link:hover {
-  color: #fa001e;
+  color: #48cae4;
 }
 
 .footer__link:last-child {
@@ -1201,7 +1201,7 @@ a {
 
 .footer__extra-links h2 {
   font-size: 23px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   letter-spacing: -0.025em;
   color: #ffffff;
 }
