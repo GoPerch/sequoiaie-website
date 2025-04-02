@@ -671,6 +671,7 @@ a {
   background: #48cae4;
 }
 .who__are__we {
+  background-color: rgba(0, 0, 0, 0.7);
   width: 80%;
   margin: 50px auto;
   margin-top: 100px;
@@ -679,6 +680,10 @@ a {
   justify-content: center;
   text-align: center;
   height: 60vh;
+}
+
+.who__are__we__header{
+  background-color: rgba(0, 0, 0, 0.7); 
 }
 .who__are__we .who__are__we__header h1 {
   font-size: 38px;

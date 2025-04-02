@@ -176,7 +176,8 @@ background-color: rgba(196, 196, 196, 0.291);
 
 
 .services_main_container{
-  background-color: black;
+  // background-color: black;
+  background-color: rgba(0, 0, 0, 0.432); 
   color: white;
   padding-top: 100px;
 }
@@ -263,7 +264,7 @@ background-color: rgba(196, 196, 196, 0.291);
   justify-content: center;
   padding: 70px 0;
   position: relative;
-  background-color: black;
+  // background-color: black;
   // color: white;
 
   .red__box {
@@ -348,7 +349,8 @@ background-color: rgba(196, 196, 196, 0.291);
 
 /*** View our projects Component Styles ***********/
 .home_cont{
-  background-color: black;
+  // background-color: red;
+  // background:url("/img/bg.jpg");
   color: white;
 }
 
@@ -438,6 +440,7 @@ background-color: rgba(196, 196, 196, 0.291);
 /*** Who We are Component Styles ***********/
 
 .who__are__we {
+  background-color: rgba(0, 0, 0, 0.7);
   width: 80%;
   margin: 50px auto;
   margin-top: 100px;

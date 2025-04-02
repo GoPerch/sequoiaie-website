@@ -13,7 +13,7 @@ const Footer = () => {
 					<div className='footer__extra-links'>
 						<Link legacyBehavior href='/'>
 							<Image
-								className='img'
+								className='logoimg'
 								src='/img/whiteLogo.png'
 								alt='Blue Logo'
 								width={100}

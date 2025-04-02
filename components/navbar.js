@@ -30,7 +30,7 @@ class Navbar extends Component {
               <Link legacyBehavior href="/">
                 <a>
                   <Image
-                    className="img"
+                    className="logoimg"
                     src="/img/whiteLogo.png"
                     alt="White Logo"
                     width={140}
