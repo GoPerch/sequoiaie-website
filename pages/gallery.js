@@ -1,6 +1,4 @@
 import Image from "next/image";
-
-
 import Head from "next/head";
 
 const Gallery = () => {
@@ -9,11 +7,11 @@ const Gallery = () => {
       <Head>
         <meta
           name="description"
-          content="See our gallery with a wide range of beautiful projects that we've done for our clients"
+          content="Explore our portfolio of premium tile installations and interior design projects for residential and commercial clients."
         />
         <meta
-          name="keyword"
-          content="flooring company, flooring, floor, floor covering, lay out, house, renovation"
+          name="keywords"
+          content="tiles, interior design, home renovation, project gallery, premium tiles, transparent interior design"
         />
 
         <link
@@ -41,17 +39,17 @@ const Gallery = () => {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Gallery - See Our beautiful projects</title>
+        <title>Gallery - Our Projects Portfolio</title>
       </Head>
 
       <section id="gallery">
         <div className="gallery__container">
-          <h1 className="gallery__title">Gallery</h1>
+          <h1 className="gallery__title">Project Gallery</h1>
 
           <p className="gallery__p">
-            Our Gallery has some of the best projects that we have worked on and
-            works of our satisfied customers. Take a look at the examples of
-            work that we do.
+            Browse our showcase of completed projects featuring premium tile installations 
+            and interior design solutions. Each project reflects our commitment to quality, 
+            transparency, and client satisfaction across residential and commercial spaces.
           </p>
 
           <div className="gallery-grid">
@@ -60,7 +58,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-1.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 priority={true}
                 layout="fill"
                 quality={100}
@@ -69,12 +67,13 @@ const Gallery = () => {
               <div className="gallery-grid__info">Tiles and interior design</div>
             </div>
 
+            {/* Remaining gallery boxes with updated alt text but same caption */}
             {/* Gallery Box 2 */}
             <div className="gallery-grid__box-2 gallery-grid--box">
               <Image
                 className="img"
                 src="/img/project-image-2.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 priority={true}
                 layout="fill"
                 quality={100}
@@ -88,7 +87,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-3.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 priority={true}
                 layout="fill"
                 quality={100}
@@ -101,7 +100,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-4.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 priority={true}
                 layout="fill"
                 quality={100}
@@ -114,7 +113,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-5.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 priority={true}
                 layout="fill"
                 quality={100}
@@ -127,7 +126,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-6.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />
@@ -140,7 +139,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-7.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />
@@ -153,7 +152,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-8.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />
@@ -166,7 +165,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-9.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />
@@ -179,7 +178,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-10.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />
@@ -192,7 +191,7 @@ const Gallery = () => {
               <Image
                 className="img"
                 src="/img/project-image-11.jpg"
-                alt="Beatifull Vinyl Floor"
+                alt="Premium tile installation and interior design"
                 layout="fill"
                 quality={100}
               />

@@ -11,9 +11,9 @@ const ServicesWeOffer = () => {
 
 <h2>Services We Offer</h2>
 <p>
-  We offer a wide range of flooring services, and high quality
-  installation services at affordable prices.
-</p>
+          We provide specialized services in tiles, interior design, and agricultural exports
+          with a focus on quality, transparency, and client satisfaction.
+        </p>
 </div>
 <div className="services__we__offer">
 <div className="service">
@@ -29,10 +29,10 @@ const ServicesWeOffer = () => {
 <div className="service__content">
   <h2 className="tiles_head">Tiles and interior design</h2>
   <p>
-    We offer a substantial list of suppliers, some of which shown below.
-    We provide competitive prices and ensure the project is completed on
-    time, on budget and to the required standard.
-  </p>
+              From direct-from-manufacturer tile solutions for builders and developers to transparent 
+              interior design services and quality agricultural exports, we deliver exceptional 
+              value across all our business verticals with a commitment to integrity and excellence.
+            </p>
   <a href="/services">Our services</a>
 </div>
 </div>

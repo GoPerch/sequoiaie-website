@@ -362,6 +362,7 @@ background-color: rgba(196, 196, 196, 0.291);
 .view__our__projects {
   width: 80%;
   margin: 50px auto;
+  margin-bottom: 0 !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -443,7 +444,7 @@ background-color: rgba(196, 196, 196, 0.291);
   // background-color: rgba(0, 0, 0, 0.7);
   width: 80%;
   margin: 50px auto;
-  margin-top: 100px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;

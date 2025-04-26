@@ -41,17 +41,16 @@ const Services = () => {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Services - See what we have to offer</title>
+        <title>Services - Quality solutions for tiles, interiors, and exports</title>
       </Head>
 
       <div className="services">
         <div className="services__header">
           <h1>Services we offer</h1>
           <p>
-            We offer a wide range of flooring services, and high quality
-            installation services at affordable prices. The wide of services we
-            offer help our customers get what they need, at the highest quality
-            possible
+            We provide specialized services in tiles, interior design, and agricultural exports
+            with a commitment to quality, transparency, and client satisfaction across all our
+            business verticals.
           </p>
         </div>
         <section className="services__example">
@@ -65,12 +64,12 @@ const Services = () => {
           />
 
           <div className="services__example__info">
-            <h1>Luxury Vinyl</h1>
+          <h1>Tiles</h1>
             <p>
-              Luxury vinyl is one of the most durable flooring options out
-              there. It can withstand water and moisture, as well as wear and
-              tear. It is also stain and scratch resistant. This durability
-              makes it an ideal flooring option.
+              We offer direct from manufacturer tile solutions for builders and developers.
+              With access to 15 manufacturing units each producing up to 500,000 sq. ft. daily,
+              we provide below-market pricing without compromising on quality. From standard to
+              custom tile sizes and designs, we can fulfill any requirement with guaranteed on-time delivery.
             </p>
             <a href="/contactus">
               Book Service <BsChevronRight className="book-service-arrow" />
@@ -79,18 +78,16 @@ const Services = () => {
         </section>
 
         <div className="services__description">
-          <p>
-            We offer a wide range of flooring services, and high quality
-            installation services at affordable prices. The wide of services we
-            offer help our customers get what they need, at the highest quality
-            possible.
+        <p>
+            From direct-from-manufacturer tile solutions for builders to transparent interior design
+            services and quality agricultural exports, we deliver exceptional value across all our
+            business verticals with a commitment to integrity and excellence.
           </p>
           <p>
-            As a respectable flooring contractor our aim is to provide an
-            unparalleled service through our reliable team completing projects
-            to the highest standards. Our highly skilled team of flooring
-            specialists will wrong alongside our clients on site to achieve the
-            desired results.
+            Our transparent, client-first approach puts you in control of your project both
+            creatively and financially. Whether you need premium tiles for your construction project,
+            interior design services with no advance payments, or reliable agricultural export
+            partners, our team works alongside clients to achieve the desired results to the highest standards.
           </p>
         </div>
       </div>

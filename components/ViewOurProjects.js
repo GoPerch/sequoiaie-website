@@ -23,12 +23,12 @@ const ViewOurProjects = () => {
             />
           </div>
           <div className="project__info">
-            <h1>Luxury Vinyl Floor</h1>
+          <h1>Modern Home Transformation</h1>
             <p>
-              We were very lucky to have the privilege in supplying all the
-              floor and wall tiles for a house renovation in Reigate this
-              year.We were very lucky to have the privilege in supplying all the
-              floor and wall tiles for a house renovation in Reigate this year.
+              This complete home renovation showcases our budget-first approach to interior design.
+              We supplied premium floor and wall tiles while giving the client full control over material 
+              selection and financial decisions. With transparent real-time expense tracking and direct
+              vendor payments, this project delivered exceptional value without compromising on quality.
             </p>
             <div className="project__buttons">
               {/* <a href='#' className='blue__link'>
@@ -52,12 +52,12 @@ const ViewOurProjects = () => {
             />
           </div>
           <div className="project__info">
-            <h1>Hollywood Vinyl Floor</h1>
+          <h1>Luxury Residence Interior</h1>
             <p>
-              We were very lucky to have the privilege in supplying all the
-              floor and wall tiles for a house renovation in Reigate this
-              year.We were very lucky to have the privilege in supplying all the
-              floor and wall tiles for a house renovation in Reigate this year.
+              This residential project showcases our transparent, client-first approach to interior design. 
+              Working as consultants rather than contractors, we collaborated closely with the homeowner, 
+              putting them in control both creatively and financially. The result is a personalized space 
+              that perfectly reflects the client's vision and lifestyle.
             </p>
             <div className="project__buttons">
               {/* <a href='#' className='blue__link'>

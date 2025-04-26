@@ -101,17 +101,17 @@ const Contact = () => {
 			</Head>
 			<div className='contact'>
 				<div className='contact__hero-section'>
-					<h1>So, you are interested in Sequoiaie</h1>
-					<p>
-						You can get started by contacting us and let us know any questions you might have, and we will
-						get back with you within 24 hours. Hoping to working with you!{' '}
-					</p>
+				<h1>Ready to work with Sequoiaie?</h1>
+                    <p>
+                        Whether you're interested in our tile solutions, interior design services, or agricultural exports, 
+                        we're here to help. Contact us with your questions or requirements, and we'll get back to you within 24 hours.
+                    </p>
 				</div>
 				<div className='contact__form-section'>
 					<div className='contact__form-section-container'>
 						<div className='contact__form-section-header'>
 							<h2>Contact Us</h2>
-							<p>Please send us your questions, please don’t spam us!</p>
+							<p>Please send us your inquiries and we'll respond promptly.</p>
 						</div>
 						<form
 							className='contact__form'
@@ -159,36 +159,37 @@ const Contact = () => {
 							</IconContext.Provider>
 						</div>
 						<p id='answer1' className='faq__answers' style={{ display: 'none' }}>
-							It depends on the type of Floor we install. For example, a Hardwood installation takes 2
-							days on Average. Get a Quote to know the approximate amount of time we take to finish the
-							Floor installation.
-						</p>
+                            We operate on a direct-from-manufacturer model that eliminates middlemen, allowing us to offer below-market 
+                            pricing without compromising quality. We work with 15 manufacturing units and can fulfill large orders for 
+                            residential, commercial, or infrastructure projects with guaranteed on-time delivery.
+                        </p>
 					</div>
 					<div className='faq__questions-container'>
 						<div className='faq__questions' onClick={() => showHideDiv('answer2')}>
-							<h1>How much time does it take to finish installing a Floor?</h1>
+						<h1>What makes your interior design service different?</h1>
 							<IconContext.Provider value={{ color: '#B9B3B3' }}>
 								<div>{expand ? <BiMinus /> : <BsPlus />}</div>
 							</IconContext.Provider>
 						</div>
 						<p id='answer2' className='faq__answers' style={{ display: 'none' }}>
-							It depends on the type of Floor we install. For example, a Hardwood installation takes 2
-							days on Average. Get a Quote to know the approximate amount of time we take to finish the
-							Floor installation.
-						</p>
+                            Our interior design service is based on transparency and client control. Unlike traditional firms, we don't 
+                            require advance payments. We work as consultants who collaborate with you, putting you in control of your project 
+                            both creatively and financially. You'll know exactly where every rupee goes through real-time expense tracking.
+                        </p>
 					</div>
 					<div className='faq__questions-container'>
 						<div className='faq__questions' onClick={() => showHideDiv('answer3')}>
-							<h1>Do you provide After-sales service?</h1>
+						<h1>What agricultural products do you export?</h1>
 							<IconContext.Provider value={{ color: '#B9B3B3' }}>
 								<div>{expand ? <BiMinus /> : <BsPlus />}</div>
 							</IconContext.Provider>
 						</div>
 						<p id='answer3' className='faq__answers' style={{ display: 'none' }}>
-							It depends on the type of Floor we install. For example, a Hardwood installation takes 2
-							days on Average. Get a Quote to know the approximate amount of time we take to finish the
-							Floor installation.
-						</p>
+                            Our agricultural export range includes grains & cereals (rice, wheat, maize), pulses & lentils, 
+                            spices (turmeric, cumin, coriander, etc.), fresh produce, processed foods, and oil seeds & nuts. 
+                            All products are sourced directly from certified farms and processors with rigorous quality checks 
+                            and reliable logistics.
+                        </p>
 					</div>
 				</div>
 			</section>

@@ -11,7 +11,9 @@ const Tiles = () => {
       <div className="servicer_cont" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <h2>Tiles Service</h2>
         <p>
-          We offer a wide range of tile services, and high quality installation services at affordable prices.
+          After years of success in international tile exports, we now bring the same quality-first approach 
+          to the domestic market through our project-based tile sales model—serving builders, developers, 
+          and contractors who need reliable tile solutions.
         </p>
       </div>
       <div className="services__we__offer">
@@ -25,9 +27,12 @@ const Tiles = () => {
             quality={100}
           />
           <div className="service__content">
-            <h2>Tiles Installation</h2>
-            <p>
-              We provide a variety of tile installation services to meet your needs. Our team ensures high quality and timely completion of projects.
+          <h2>Direct from Manufacturer Solutions</h2>
+          <p>
+              We eliminate all middlemen and unnecessary overheads. With access to 15 manufacturing units 
+              each producing up to 500,000 sq. ft. daily, we offer below-market pricing without compromising 
+              on quality. From standard to custom tile sizes and designs, we can fulfill any requirement for 
+              residential, commercial, or infrastructure projects with guaranteed on-time delivery.
             </p>
             <a href="/contactus">Contact Us</a>
           </div>

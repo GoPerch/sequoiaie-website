@@ -4,8 +4,6 @@ import Link from "next/link";
 
 import { BsChevronRight } from "react-icons/bs";
 
-
-
 class Navbar extends Component {
   constructor() {
     super();
@@ -26,18 +24,24 @@ class Navbar extends Component {
 
         <div className="nav__container">
           <div className="navbar">
-            <div className="logo">
+            <div className="logo" style={{ display: 'flex', alignItems: 'center' }}>
               <Link legacyBehavior href="/">
-                <a>
+                <a style={{ display: 'block', width: '45px', height: '45px', position: 'relative' }}>
                   <Image
                     className="logoimg"
-                    src="/img/whiteLogo.png"
+                    src="/img/whiteLogo.jpg"
                     alt="White Logo"
-                    width={140}
-                    height={140}
+                    width={45}
+                    height={45}
                     quality={100}
+                    style={{ 
+                      borderRadius: '50%', 
+                      objectFit: 'cover',
+                      width: '45px', 
+                      height: '45px',
+                      maxWidth: '100%'
+                    }}
                   />
-                  {/* <h2>Sequoiaie </h2> */}
                 </a>
               </Link>
             </div>
@@ -92,7 +96,7 @@ class Navbar extends Component {
                   <a className="mobile-menu__link">Contact Us</a>
                 </Link>
                 <Link legacyBehavior href="/contactus">
-                  <a className=" mobile-menu__link mobile-menu__link--red">
+                  <a className="mobile-menu__link mobile-menu__link--red">
                     Get a Quote
                   </a>
                 </Link>

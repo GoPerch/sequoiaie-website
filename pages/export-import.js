@@ -11,7 +11,7 @@ const ExportImport = () => {
       <div className="servicer_cont" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <h2>Export Import Service</h2>
         <p>
-          We offer a wide range of export and import services, ensuring high quality and timely delivery.
+        With 3+ years of success exporting premium tiles to the U.S., we've now expanded into agricultural and food commodities, delivering the same high standards globally.
         </p>
       </div>
       <div className="services__we__offer">
@@ -27,7 +27,11 @@ const ExportImport = () => {
           <div className="service__content">
             <h2>Export Import</h2>
             <p>
-              Our export and import services are designed to meet your needs. We ensure high quality and timely delivery of goods.
+              Our product range includes grains, pulses, spices, fresh produce, processed foods, and oil seeds - 
+              all sourced directly from certified farms and processors. With proven expertise in international trade, 
+              rigorous quality controls, seamless supply chain management, and a customer-centric approach, we provide 
+              tailor-made solutions to meet specific market requirements. We're actively seeking partnerships with importers, 
+              wholesalers, and distributors globally.
             </p>
             <a href="/contactus">Contact Us</a>
           </div>
